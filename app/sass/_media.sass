@@ -1,0 +1,172 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.delivery-wrapper
+		margin-left: 0
+		.delivery
+			margin-left: 75px
+	.socials
+		margin-right: -35px
+	.header__content
+		h1
+			text-align: center
+			font-size: 41px
+		form
+			text-align: center
+
+	.s-1
+		text-align: center
+		.b-timer
+			float: none
+			display: inline-block
+	.s-2__item::after
+		right: -62px
+	.s-2__item__left
+		font-size: 60px
+	.s-2__item__right
+		font-size: 23px
+	.s-4__right
+		margin-top: 3px
+	.s-9__contacts
+		p
+			a
+				margin-top: 15px
+	.s-6__gallery
+		.big-picture
+			margin-left: 46px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.top-line
+		text-align: center
+	.logo
+		img
+			display: inline-block
+			width: 100%
+	.delivery-wrapper
+		.delivery
+			margin-left: 0
+			margin-top: 0
+			margin-bottom: -24px
+	.socials
+		text-align: center
+		margin-right: 0
+	.top-phone
+		text-align: center
+	.b-timer
+		margin-left: -44px
+	.s-2__item::after
+		display: none
+	.s-2__item-wrapper
+		position: relative
+		margin-bottom: 50px
+		&::after
+			content: ''
+			width: 90px
+			height: 2px
+			position: absolute
+			bottom: -20px
+			left: 50%
+			transform: translateX(-50%)
+			background-color: #E75848
+	.s-2__item-wrapper-last
+		margin-bottom: 0
+		&::after
+			display: none
+	.s-3
+		padding-bottom: 30px
+	.s-3__item
+		margin-bottom: 60px
+	.s-4__right
+		max-width: 370px
+	.s-7
+		padding-bottom: 0
+	.s-7__item
+		margin-bottom: 110px
+	.s-9__contacts
+		text-align: center
+	.footer
+		text-align: center
+	.footer__right
+		text-align: center
+	.s-6__gallery
+		img
+			width: 50%
+			float: left
+		.big-picture
+			width: 375px
+			margin-left: 0
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.logo
+		img
+			width: 70px
+	.b-timer
+		transform: scale(.8)
+		width: 440px
+		margin-left: -124px
+	.s-6__gallery
+		padding: 0 15px
+		img
+			width: 100%
+		.big-picture
+			width: 100%
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.delivery-wrapper
+		.delivery
+			.delivery-left
+				font-size: 18px
+	.contact-form
+		label
+			input
+				width: 100%
+	.affix-button-wrapper, .send-button-wrapper
+		button
+			width: 100%
+		.affix-button
+			width: 100%
+	.b-timer
+		transform: scale(.6)
+		width: 370px
+		margin-left: -146px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
