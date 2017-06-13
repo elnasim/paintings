@@ -51,6 +51,7 @@ $attachment";
 }
 ?>
 
+
 <?php echo $output; 
  header('Refresh: 1; URL=../index.html');
  ?>
